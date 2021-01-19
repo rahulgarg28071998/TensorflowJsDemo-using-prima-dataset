@@ -16,5 +16,5 @@
             "optimizer_config": { "class_name": "Adam", "config": { "name": "Adam", "learning_rate": 0.0010000000474974513, "decay": 0.0, "beta_1": 0.8999999761581421, "beta_2": 0.9990000128746033, "epsilon": 1e-07, "amsgrad": false } }
         }
     },
-    "weightsManifest": [{ "paths": ["TensorflowJsDemo-using-prima-dataset/group1-shard1of1.bin"], "weights": [{ "name": "dense_39/kernel", "shape": [8, 12], "dtype": "float32" }, { "name": "dense_39/bias", "shape": [12], "dtype": "float32" }, { "name": "dense_40/kernel", "shape": [12, 8], "dtype": "float32" }, { "name": "dense_40/bias", "shape": [8], "dtype": "float32" }, { "name": "dense_41/kernel", "shape": [8, 1], "dtype": "float32" }, { "name": "dense_41/bias", "shape": [1], "dtype": "float32" }] }]
+    "weightsManifest": [{ "paths": ["group1-shard1of1.bin"], "weights": [{ "name": "dense_39/kernel", "shape": [8, 12], "dtype": "float32" }, { "name": "dense_39/bias", "shape": [12], "dtype": "float32" }, { "name": "dense_40/kernel", "shape": [12, 8], "dtype": "float32" }, { "name": "dense_40/bias", "shape": [8], "dtype": "float32" }, { "name": "dense_41/kernel", "shape": [8, 1], "dtype": "float32" }, { "name": "dense_41/bias", "shape": [1], "dtype": "float32" }] }]
 }

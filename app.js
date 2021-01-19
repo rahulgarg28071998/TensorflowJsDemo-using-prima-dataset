@@ -18,7 +18,11 @@ async function init(event) {
     data.push(parseFloat(document.getElementById("Age").value));
     console.log(data);
 
-    model.predict(tf.tensor2d([data])).print();
+    var pred = model.predict(tf.tensor2d([data]));
+    const tensorData = pred.dataSync();
+    console.log(tensorData[0]);
+    var filteredPrediction = tensorData[0] > 0.5 ? 1 : 0;
+    document.getElementById("Prediction").innerText = "probability : " + tensorData[0] + "\n prediction : " + filteredPrediction;
 }
 
 // init();
